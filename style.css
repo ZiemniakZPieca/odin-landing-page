@@ -1,0 +1,48 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#top  p, header  a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 200px;
+}
+
+.header {
+    margin: auto;
+}
+
+.header.logo {
+    flex: 3 1 auto;
+}
+
+.header.links a {
+    flex: auto;
+    text-decoration: none;
+    margin: 0 10px;
+}
