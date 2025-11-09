@@ -17,12 +17,13 @@ h2 {
     color: #1F2937;
     font-weight: 900;
 }
+
 h3 {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-#top  p, header  a {
+.main.hero p, header a, input {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -45,4 +46,44 @@ header {
     flex: auto;
     text-decoration: none;
     margin: 0 10px;
+}
+
+.main.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px 200px;
+}
+
+.main.hero > content, .main.hero > image {
+    flex: 1 1 auto;
+}
+
+.main.hero > .content {
+    margin-right: 25px;
+}
+
+.main.hero > .image {
+    margin-left: 25px;
+}
+
+.placeholder {
+    background-color: #696969;
+    min-width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder > section {
+    height: 1em;
+}
+
+.main.hero > .content > input {
+    background-color: #3882F6;
+    border-radius: 7px;
+    width: 120px;
+    height: 35px;
+    font-weight: 700;
+    border: 0;
 }
